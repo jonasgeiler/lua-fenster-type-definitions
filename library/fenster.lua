@@ -7,7 +7,6 @@ https://luarocks.org/modules/jonasgeiler/fenster
 
 --]]
 
-
 ---@class window*
 ---@field keys boolean[]
 ---@field delta number
@@ -58,7 +57,6 @@ function window:__close() end
 ---@nodiscard
 function window:__tostring() end
 
-
 local fenster = {}
 
 ---@param width integer
@@ -106,6 +104,5 @@ function fenster.get(window, x, y) end
 ---@param window window*
 ---@param color integer?
 function fenster.clear(window, color) end
-
 
 return fenster
