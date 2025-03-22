@@ -57,6 +57,7 @@ function window:__close() end
 ---@nodiscard
 function window:__tostring() end
 
+---@class fenster
 local fenster = {}
 
 ---@param width integer
